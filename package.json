@@ -1,5 +1,5 @@
 {
-  "name": "knightFlix",
+  "name": "knightflix",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,13 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxt-hero-icons/outline": "^1.0.1",
+    "@nuxt-hero-icons/solid": "^1.0.1",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.4.8",
     "@nuxtjs/tailwindcss": "^4.0.3",
     "postcss": "^8.2.13"
   }

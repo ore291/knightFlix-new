@@ -1,5 +1,13 @@
 <template>
-  <div>
-    <h1> ore is a boy</h1>
-  </div>
+  <Header />
 </template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>

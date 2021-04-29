@@ -29,17 +29,19 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxtjs/tailwindcss',
+    '@nuxt/image',
+    '@nuxt-hero-icons/outline/nuxt',
+    '@nuxt-hero-icons/solid/nuxt',
   ],
+    // Modules: https://go.nuxtjs.dev/config-modules
+    modules: [
+    ],
 
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-  ],
+    // Build Configuration: https://go.nuxtjs.dev/config-build
+    build: {
+    },
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  },
-
-  tailwindcss: {
-    jit: true
-  }
+    tailwindcss: {
+      jit: true
+    }
 }
