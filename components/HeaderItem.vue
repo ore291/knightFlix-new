@@ -1,7 +1,11 @@
 <template>
-  <div class="group flex flex-col cursor-pointer hover:text-white">
-    <component :is="icon"  class="w-10 h-10 group-hover:animate-bounce" />
-    <p class="opacity-0 group-hover:opacity-100 active:text-red-300">{{ Title }}</p>
+  <div class="group flex flex-col items-center cursor-pointer w-12 sm:w-20 hover:text-white">
+    <component :is="icon" class="h-8 mb-1 group-hover:animate-bounce" />
+    <p
+      class="tracking-widest opacity-0 group-hover:opacity-100 active:text-red-300 items-center"
+    >
+      {{ Title }}
+    </p>
   </div>
 </template>
 

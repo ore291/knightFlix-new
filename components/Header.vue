@@ -1,8 +1,8 @@
 <template>
-  <header class="sm:flex items-center justify-between">
-    <div class="flex ">
+  <header class="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
+    <div class="flex flex-grow justify-evenly max-w-2xl">
       <div v-for="(items, index) in hItems" :key="index">
-        <HeaderItem :Title="items.Title" :icon="items.icon" class="px-5" />
+        <HeaderItem :Title="items.Title" :icon="items.icon"  />
       </div>
     </div>
     <nuxt-img
@@ -26,6 +26,22 @@ export default {
         {
           Title: "TRENDING",
           icon: "outline-lightningBolt-icon",
+        },
+        {
+          Title: "VERIFIED",
+          icon: "outline-badgeCheck-icon",
+        },
+        {
+          Title: "COLLECTIONS",
+          icon: "outline-collection-icon",
+        },
+        {
+          Title: "SEARCH",
+          icon: "outline-search-icon",
+        },
+        {
+          Title: "ACCOUNT",
+          icon: "outline-user-icon",
         },
       ],
     };

@@ -11,12 +11,16 @@
   "dependencies": {
     "@nuxt-hero-icons/outline": "^1.0.1",
     "@nuxt-hero-icons/solid": "^1.0.1",
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/dotenv": "^1.4.1",
     "core-js": "^3.9.1",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "tailwind-scrollbar-hide": "^1.0.3"
   },
   "devDependencies": {
     "@nuxt/image": "^0.4.8",
     "@nuxtjs/tailwindcss": "^4.0.3",
+    "nuxt-vite": "^0.0.37",
     "postcss": "^8.2.13"
   }
 }
