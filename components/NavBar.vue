@@ -40,10 +40,10 @@ export default {
     //   );
     //   return this.$router.push({ path: `/genre/${genre}`, params: {res} })
     // },
-    async asyncData({ $axios }) {
-      const ip = await $axios.$get("http://icanhazip.com");
-      return { ip };
-    },
+    // async asyncData({ $axios }) {
+    //   const ip = await $axios.$get("http://icanhazip.com");
+    //   return { ip };
+    // },
   },
 };
 </script>
