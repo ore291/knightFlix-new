@@ -54,5 +54,6 @@ export default {
     // See https://github.com/nuxt-community/axios-module#options
     baseURL: process.env.BASE_URL
   },
+  target: 'static'
 
 }
