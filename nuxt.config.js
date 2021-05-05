@@ -33,7 +33,7 @@ export default {
     '@nuxt/image',
     '@nuxt-hero-icons/outline/nuxt',
     '@nuxt-hero-icons/solid/nuxt',
-    '@nuxtjs/dotenv'
+    ['@nuxtjs/dotenv', { systemvars: true }]
 
 
   ],
