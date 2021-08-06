@@ -1,6 +1,10 @@
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  env: {
+    API_KEY : process.env.API_KEY,
+   BASE_URL: process.env.BASE_URL
+  },
   head: {
     title: 'knightFlix',
     htmlAttrs: {
